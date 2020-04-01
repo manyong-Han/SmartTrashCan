@@ -1,0 +1,2 @@
+rootProject.name='SmartTrashCan_final'
+include ':app'

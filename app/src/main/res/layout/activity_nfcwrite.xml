@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#48D1CC">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NFC TAG SCAN"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    <EditText
+        android:id="@+id/tag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="ID값을 입력하세요."
+        android:textSize="40sp"
+        android:inputType="number"
+        android:digits="0123456789"/>
+
+    <TextView
+        android:id="@+id/tag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="값을 입력한 후 태그를 터치해 주세요."
+        android:textSize="25sp"/>
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bottomlogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0sp"
+                android:layout_marginTop="40dp"
+                android:paddingBottom="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/botm" />
+
+        </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
